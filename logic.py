@@ -8,12 +8,15 @@ class Question:
 
     @property
     def text(self):
-        return self.__text 
+        return self.__text
+
 
     def gen_buttons(self):
         # Görev 3 - Dahili klavyeyi oluşturmak için bir metot oluşturun
         return buttons
 
+    
+    
 # Görev 4 - Listeyi sorularınızla doldurun
 quiz_questions = [
    Question("Kediler onları kimse görmediğinde ne yapar?", 1, "Uyurlar", "Espri yazarlar"),
